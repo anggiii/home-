@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TanggalWaktu</string>
+    <string name="date">date</string>
+    <string name="fiqihumroh">fiqih umroh</string>
+    <string name="persiapan">Persiapan Haji</string>
+    <string name="fiqihhaji">Fiqih Haji</string>
+    <string name="dzikir">Dzikir &amp; Doa</string>
+    <string name="tatacara">Tata Cara Umrah</string>
+    <string name="tatahaji">Tata Cara Haji</string>
+    <string name="Petajarak">Peta Jarak</string>
+    <string name="lokasi">Lokasi Ziarah</string>
+    <string name="tanyajawab">Tanya Jawab</string>
+
+    <string name="tentang">Tentang</string>
+    <string name="rate">Rate this app</string>
+    <string name="daftarisi">Daftar Isi</string>
+
+    <string name="search">search</string>
+    <string name="gaada">No Result</string>
+
+    <string-array name="mencari">
+        <item> Anggia </item>
+        <item> Fadiya </item>
+        <item> Khalifah </item>
+        <item> Nayla </item>
+        <item> Safira </item>
+        <item> Inas </item>
+        <item> Maurisa </item>
+        <item> Meyling </item>
+        <item> Neila </item>
+    </string-array>
+</resources>
