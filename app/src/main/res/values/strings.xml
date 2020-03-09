@@ -17,6 +17,11 @@
 
     <string name="search">search</string>
     <string name="gaada">No Result</string>
+    <string name="kiblat">kiblat</string>
+    <string name="beranda">beranda</string>
+    <string name="sholat">sholat</string>
+    <string name="kesehatan">kesehatan</string>
+    <string name="author">author</string>
 
     <string-array name="mencari">
         <item> Anggia </item>

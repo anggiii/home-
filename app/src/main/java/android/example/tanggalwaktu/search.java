@@ -1,9 +1,15 @@
 package android.example.tanggalwaktu;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -12,18 +18,23 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class search extends AppCompatActivity {
-    ArrayAdapter<String>adapter;
+    ArrayAdapter<String> adapter;
     ListView lv;
     TextView apakek;
     SearchView searchView;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search);
 
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        setContentView(R.layout.activity_search);
+        super.onCreate(savedInstanceState);
         apakek = findViewById(R.id.test);
         lv = findViewById(R.id.list);
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
         searchView = findViewById(R.id.searchView);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -38,7 +49,6 @@ public class search extends AppCompatActivity {
                 return true;
             }
         });
-
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
                 getResources().getStringArray(R.array.mencari));
 
@@ -51,6 +61,7 @@ public class search extends AppCompatActivity {
             }
         });
         lv.setEmptyView(apakek);
-    }
 
+        return super.onCreateOptionsMenu(menu);
+    }
 }

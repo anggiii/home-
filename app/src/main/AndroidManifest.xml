@@ -11,33 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Navigation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Rate"
-            android:label="@string/rate"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".DaftarIsi"
-            android:label="@string/daftarisi"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".lokasiZiarah"
-            android:label="@string/lokasi"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Tentang"
-            android:label="@string/tentang"
-            android:parentActivityName=".MainActivity"/>
-        <activity
-            android:name=".search"
-            android:parentActivityName=".MainActivity">
-        </activity>
+        <activity android:name=".search"
+            android:parentActivityName=".Navigation"/>
+        <activity android:name=".DaftarIsi"
+            android:parentActivityName=".Navigation"/>
+        <activity android:name=".Tentang"
+            android:parentActivityName=".Navigation"/>
+        <activity android:name=".Rate"
+            android:parentActivityName=".Navigation"/>
     </application>
 
 </manifest>
