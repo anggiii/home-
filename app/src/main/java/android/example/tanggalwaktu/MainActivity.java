@@ -21,7 +21,6 @@ import java.util.Calendar;
 
 public class MainActivity extends Fragment implements View.OnClickListener {
     Button button;
-    ImageView im1, im2, im3;
     CardView crd1, crd2, crd3;
 
     @Nullable
@@ -83,13 +82,13 @@ public class MainActivity extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.crdpersiapan:
-                startActivity(new Intent(getActivity(), persiapanhaji.class));
+                startActivity(new Intent(getActivity(), persiapanhaji2.class));
                 break;
             case R.id.crdfiqihumroh:
                 startActivity(new Intent(getActivity(), FiqihUmrah.class));
                 break;
             case R.id.crddoa:
-                startActivity(new Intent(getActivity(), DzikirDoa.class));
+                startActivity(new Intent(getActivity() , DzikirDoa.class));
                 break;
             default:
                break;

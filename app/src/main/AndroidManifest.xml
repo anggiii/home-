@@ -3,24 +3,35 @@
     package="android.example.tanggalwaktu">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:name=".AppController"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:hardwareAccelerated="false"
-        android:largeHeap="true">
+        android:theme="@style/AppTheme">
+        <activity android:name=".talbiyah"></activity>
+        <activity android:name=".teman" />
+        <activity android:name=".harta_halal" />
+        <activity android:name=".taubat" />
+        <activity android:name=".jgnmaksiat" />
+        <activity android:name=".berdebat" />
+        <activity android:name=".meneladani_nabi" />
+        <activity android:name=".ikhlas" />
+        <activity android:name=".bersabar" />
+        <activity android:name=".segeralah" />
+        <activity android:name=".jamaah" />
+        <activity android:name=".keutamaan" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key"/>
-
+            android:value="@string/google_maps_key" />
 
         <activity
             android:name=".Navigation"
@@ -31,30 +42,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".search"
+        <activity
+            android:name=".search"
             android:parentActivityName=".Navigation"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".DaftarIsi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DaftarIsi"
             android:parentActivityName=".Navigation"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Tentang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tentang"
             android:parentActivityName=".Navigation"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Rate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rate"
             android:parentActivityName=".Navigation"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps"
             android:parentActivityName=".Navigation"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".persiapanhaji"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".persiapanhaji2"
             android:parentActivityName=".Navigation"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".FiqihUmrah"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FiqihUmrah"
             android:parentActivityName=".Navigation"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".DzikirDoa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DzikirDoa"
             android:parentActivityName=".Navigation"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

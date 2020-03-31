@@ -3,6 +3,10 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <RelativeLayout
         android:id="@+id/rl2"
         android:layout_width="match_parent"
@@ -95,7 +99,7 @@
                 android:layout_height="40dp"
                 android:gravity="center"
                 android:textColor="#000"
-                android:text="@string/persiapan" />
+                android:text="@string/kethaji" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -111,19 +115,19 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_toStartOf="@+id/btnAlbum"
-                android:layout_toLeftOf="@+id/btnAlbum"
+                android:layout_toStartOf="@+id/ikhlas"
+                android:layout_toLeftOf="@+id/ikhlas"
                 android:gravity="center">
 
                 <ImageView
-                    android:id="@+id/btnTahfiz"
+                    android:id="@+id/bersabarlah"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@mipmap/berdebat" />
             </RelativeLayout>
 
             <ImageView
-                android:id="@+id/btnAlbum"
+                android:id="@+id/ikhlas"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_centerInParent="true"
@@ -132,8 +136,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_toEndOf="@id/btnAlbum"
-                android:layout_toRightOf="@id/btnAlbum"
+                android:layout_toEndOf="@id/ikhlas"
+                android:layout_toRightOf="@id/ikhlas"
                 android:gravity="center">
 
                 <ImageView
@@ -161,14 +165,14 @@
                 android:layout_toLeftOf="@+id/jgnmaksiat"
                 android:gravity="center">
 
-                <Button
+                <ImageView
                     android:id="@+id/berdebat"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@mipmap/berdebat" />
             </RelativeLayout>
 
-            <Button
+            <ImageView
                 android:id="@+id/jgnmaksiat"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
@@ -182,8 +186,8 @@
                 android:gravity="center"
                 android:layout_toRightOf="@id/jgnmaksiat">
 
-                <Button
-                    android:id="@+id/btnParentBook"
+                <ImageView
+                    android:id="@+id/taubat"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@mipmap/berdebat" />
@@ -250,14 +254,14 @@
                 android:layout_toLeftOf="@+id/teman"
                 android:gravity="center">
 
-                <Button
+                <ImageView
                     android:id="@+id/harta"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@mipmap/berdebat" />
             </RelativeLayout>
 
-            <Button
+            <ImageView
                 android:id="@+id/teman"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
@@ -271,7 +275,7 @@
                 android:layout_toRightOf="@id/teman"
                 android:gravity="center">
 
-                <Button
+                <ImageView
                     android:id="@+id/talbiyah"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -365,4 +369,5 @@
                 android:text="@string/hajidgnharta" />
         </RelativeLayout>
     </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>

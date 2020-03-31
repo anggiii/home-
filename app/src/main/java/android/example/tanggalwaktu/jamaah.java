@@ -1,14 +1,14 @@
 package android.example.tanggalwaktu;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class jamaah extends AppCompatActivity {
 
-public class persiapanhaji extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.persiapanhaji);
+        setContentView(R.layout.activity_jamaah);
     }
 }
