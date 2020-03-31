@@ -22,6 +22,96 @@
     <string name="sholat">sholat</string>
     <string name="kesehatan">kesehatan</string>
     <string name="author">author</string>
+    <string name="kirim_lokasi">Kirim lokasi</string>
+    <string name="lokasi_anda">Lokasi Anda Saat Ini</string>
+    <string name="location">Location:</string>
+    <string name="prayer_time">Prayer Time:</string>
+    <string name="subuh">Shubuh:</string>
+    <string name="dzuhur">Dzuhur:</string>
+    <string name="ashar">Ashar:</string>
+    <string name="maghrib">Maghrib:</string>
+    <string name="isya">Isya:</string>
+    <string name="map">maps</string>
+    <string name="locasi">get ur loc</string>
+    <string name="dzikir_haji_dan_umroh">dzikir haji dan umroh</string>
+    <string name="dzikir_pagi_dan_petang">dzikir pagi dan petang</string>
+    <string name="dzikir_dan_doa_keseharian">dzikir dan doa keseharian</string>
+    <string name="doa_umum_arofal_dll">doa umum arofah</string>
+    <string name="ihram_di_miqot">ihram di miqot</string>
+    <string name="thowaf">thowaf</string>
+    <string name="maqom_ibrahim">maqom ibrahim</string>
+    <string name="minum_zamzam">minum zamzam</string>
+    <string name="sa_i">sai</string>
+    <string name="gundul_cukur_pendek">gundul cukur pendek</string>
+    <string name="keutamaan_haji">keutamaan haji</string>
+    <string name="jama_ah_haji_tamu_allah">jamaah haji tamu allah</string>
+    <string name="segeralah_jadi_tamu_allah">segeralah jadi tamu allah</string>
+    <string name="bersabarlah">bersabarlah</string>
+    <string name="ikhlas">Ikhlas</string>
+    <string name="meneladani_nabi">meneladani nabi</string>
+    <string name="jangan_berdebat">jangan berdebat</string>
+    <string name="jangan_maksiat_agar_mabrur">jangan maksiat agar mabrur</string>
+    <string name="bertaubat_sebelum_berhaji">bertaubat sebelum haji</string>
+    <string name="berhaji_dengan_harta_yg_halal">berhaji dengan harta yang halal</string>
+    <string name="mencari_teman_perjalanan_yang_baik">mencari teman perjalanan yang baik</string>
+    <string name="hakikat_talbiyah">hakikat talbiyah</string>
+    <string name="hai">hai</string>
+    <string name="fiqihumrh"> Fiqih Umrah</string>
+    <string name="dzikirdoa">Dzikir dan doa </string>
+    <string name="tataumroh">Tata Cara Umroh</string>
+    <string name="tatacrhaji">Tata Cara Haji</string>
+    <string name="peta">Peta Jarak</string>
+    <string name="Lokasi"> Lokasi Ziarah</string>
+    <string name="tanyajwb">Tanya Jawab</string>
+    <string name="kethaji">Keutamaan Haji</string>
+    <string name="jamaah">Jamaah Haji tamu Allah</string>
+    <string name="segeralah">Segeralah jadi tamu Allah</string>
+    <string name="bersabar">Bersabarlah</string>
+    <string name="meneladani">Meneladani Nabi</string>
+    <string name="jangandebat">Jangan Berdebat</string>
+    <string name="jgnmaksiat">Jangan maksiat agar
+        \n mabrur</string>
+    <string name="tobatdulu">Tobat sebelum Haji</string>
+    <string name="hajidgnharta">Berhaji dengan harta yang halal</string>
+    <string name="mencariteman">Mencari teman
+        \n perjalanan yang baik</string>
+    <string name="hakikat">Hakikat Talbiyah</string>
+    <string name="atur_lokasi">aturlokasi</string>
+
+    <string name="allah">Allah</string>
+
+    <string name="akselerasi"> <p> Kami</p> dari akselerasi Programming PLP 7 Pondok Pesantren Fahim Qur\'an Plus,
+        Tapos 1 Tenjolaya Bogor Jawa Barat.
+    </string>
+
+    <string name="terdiri">
+        Kami terdiri dari:
+    </string>
+
+    <string name="Fadiya">
+        1. Fadiya
+    </string>
+
+    <string name="pad">
+        \n Fadiya Tsabita, lahir di Bandung, 17 September 2004. Fadiya berasal dari Pekanbaru, Riau.
+        \n Dia sekarang duduk di kelas 10 SMA, angkatan 4 FQ.
+        \n email : @fadiya07tsabita@gmail.com.
+    </string>
+
+    <string name="Safira">
+        2. Sapi
+        \n Safira Rakhsanda, lahir di Pekanbaru, 2 Mei 2006. Safira atau biasa dipanggil Sapi berasal dari Jakarta Barat.
+        \n Dia sekarang duduk di kelas 8 SMP, angkatan 3 FQ.
+        \n IG : @sa_piraaaa
+    </string>
+
+    <string name="Anggi">
+        3. Anggi
+        \n Anggia Putri Noly, lahir di Pematang Siantar, 20 Januari 2004. Anggi berasal dari Depok.
+        \n Dia sekarang duduk di kelas 10 SMA, angkatan 4 FQ.
+        \n IG : @anggiiapn
+    </string>
+    <string name="ihram">Ihram di Miqot</string>
 
     <string-array name="mencari">
         <item> Anggia </item>

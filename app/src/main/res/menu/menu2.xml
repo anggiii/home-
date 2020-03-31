@@ -31,5 +31,4 @@
         android:title="@string/author"
         android:icon="@drawable/ic_person"
         android:enabled="true"/>
-
 </menu>

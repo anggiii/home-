@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,6 +15,7 @@ import androidx.fragment.app.Fragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Navigation extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -24,6 +27,7 @@ public class Navigation extends AppCompatActivity implements BottomNavigationVie
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
 
     }
+
     private boolean loadFragment(Fragment fragment) {
         if (fragment != null) {
             getSupportFragmentManager().beginTransaction()
@@ -35,12 +39,27 @@ public class Navigation extends AppCompatActivity implements BottomNavigationVie
         return false;
     }
     @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return false;
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+        Fragment fragment = null;
+        switch (menuItem.getItemId()) {
+            case R.id.home :
+                fragment = new MainActivity();
+                break;
+            case R.id.sholat :
+                fragment = new SholatFragment();
+                break;
+            case R.id.kiblat :
+                fragment = new KiblatFragment();
+                break;
+            case R.id.kesehatan :
+                fragment = new KesehatanFragment();
+                break;
+            case R.id.author :
+                fragment = new AuthorFragment();
+                break;
+        }
+        return loadFragment(fragment);
     }
-
-
-
 
     @Override
     public boolean onCreateOptionsMenu(@NonNull Menu menu) {

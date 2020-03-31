@@ -1,0 +1,368 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:id="@+id/relatif1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/jamaah"
+                android:layout_toLeftOf="@+id/jamaah"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/persiapan"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:background="@mipmap/berdebat" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/jamaah"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/berdebat" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/jamaah"
+                android:layout_toRightOf="@id/jamaah"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/segera"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/berdebat" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/relatif1"
+            android:layout_toRightOf="@id/text1"
+            android:gravity="center"
+            android:layout_toEndOf="@id/text1">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="@string/jamaah" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/relatif1"
+            android:textColor="#000"
+            android:text="@string/segeralah"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/relatif1"
+            android:layout_toStartOf="@id/text1"
+            android:layout_toLeftOf="@id/text1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="@string/persiapan" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relatif2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/text1"
+            android:layout_alignStart="@+id/relatif1"
+            android:layout_alignLeft="@+id/relatif1"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/btnAlbum"
+                android:layout_toLeftOf="@+id/btnAlbum"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/btnTahfiz"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/berdebat" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/btnAlbum"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/berdebat" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/btnAlbum"
+                android:layout_toRightOf="@id/btnAlbum"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/nabi"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/berdebat" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relatif3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/text4"
+            android:layout_alignStart="@+id/relatif2"
+            android:layout_alignLeft="@+id/relatif2"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/jgnmaksiat"
+                android:layout_toLeftOf="@+id/jgnmaksiat"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/berdebat"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/berdebat" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/jgnmaksiat"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/berdebat" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/jgnmaksiat"
+                android:gravity="center"
+                android:layout_toRightOf="@id/jgnmaksiat">
+
+                <Button
+                    android:id="@+id/btnParentBook"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/berdebat" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/relatif3"
+            android:layout_toRightOf="@id/text7"
+            android:gravity="center"
+            android:layout_toEndOf="@id/text7">
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="@string/tobatdulu" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/relatif3"
+            android:textColor="#000"
+            android:text="@string/jgnmaksiat"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/relatif3"
+            android:layout_toStartOf="@id/text7"
+            android:layout_toLeftOf="@id/text7"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="@string/jangandebat" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relatif4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/text7"
+            android:layout_alignStart="@+id/relatif3"
+            android:layout_alignLeft="@+id/relatif3"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/teman"
+                android:layout_toLeftOf="@+id/teman"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/harta"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/berdebat" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/teman"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/berdebat" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/teman"
+                android:layout_toRightOf="@id/teman"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/talbiyah"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/berdebat" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/relatif2"
+            android:layout_toRightOf="@id/text4"
+            android:gravity="center"
+            android:layout_toEndOf="@id/text1">
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="@string/meneladani" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/relatif2"
+            android:textColor="#000"
+            android:text="@string/ikhlas"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/relatif2"
+            android:layout_toStartOf="@id/text1"
+            android:layout_toLeftOf="@id/text1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="@string/bersabar" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/relatif4"
+            android:layout_toRightOf="@id/text10"
+            android:gravity="center"
+            android:layout_toEndOf="@id/text10">
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="@string/hakikat" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/relatif4"
+            android:textColor="#000"
+            android:text="@string/mencariteman"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/relatif4"
+            android:layout_toStartOf="@id/text10"
+            android:layout_toLeftOf="@id/text10"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:text="@string/hajidgnharta" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

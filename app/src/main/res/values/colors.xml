@@ -7,5 +7,9 @@
     <color name="buttonDefault">#FFFFFF</color>
     <color name="mainbg">#E5FFFF</color>
 
-    <color name="date">#000000</color>
+    <color name="date">#FFFFFF</color>
+
+    <color name="colorButton">#FFFFFF</color>
+
+    <color name="huruf">#0080B3</color>
 </resources>
